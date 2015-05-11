@@ -76,7 +76,7 @@ d3.select("#example1").call(function(div) {
       .data([foo, bar, foo.add(bar)])
     .enter().append("div")
       .attr("class", "horizon")
-      .call(context.horizon().extent([-20, 20]) .height(60)  );
+      .call(context.horizon().extent([-20, 20]) .height(60) .colors(["#cc3300","#3333ff"]) );
 
   div.append("div")
       .attr("class", "rule")
