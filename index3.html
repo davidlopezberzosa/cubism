@@ -22,15 +22,8 @@
 
 <p><aside>Mouseover or use the arrow keys to inspect values.<br></aside>
 
-<p style="margin-top:3em;"><b>HeartBeat</b> is a <a href="http://mbostock.github.com/d3/">D3</a> plugin for visualizing sales accross time.>
+<p style="margin-top:3em;"><b>HeartBeat</b> is a <a href="http://mbostock.github.com/d3/">D3</a> plugin for visualizing sales accross time.
 
-<h2>Scalable</h2>
-
-<p>Cubism fetches time series data incrementally: after the initial display, Cubism reduces server load by polling only the most recent values. Cubism renders incrementally, too, using <a href="http://www.w3.org/TR/2dcontext/">Canvas</a> to shift charts one pixel to the left. This approach lets Cubism scale easily to hundreds of metrics updating every ten seconds! Despite asynchronous fetching, rendering is synchronized so that charts update simultaneously, further improving performance and readability.
-
-<h2>Effective</h2>
-
-<p>Cubism also scales in terms of perception: small multiples aligned by time facilitate rapid comparison. Cubism’s horizon charts make better use of vertical space than standard area charts, allowing you to see many more metrics at-a-glance and increasing the likelihood of discovery. If you compress a 120-pixel tall area chart to 30 pixels, you lose 75% of the resolution and it becomes harder to see small changes:
 
 <div id="example2a"></div>
 
