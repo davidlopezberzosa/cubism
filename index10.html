@@ -76,7 +76,7 @@ d3.select("#example1").call(function(div) {
       .data([foo, bar, foo.add(bar)])
     .enter().append("div")
       .attr("class", "horizon")
-      .call(context.horizon().extent([-20, 20]));
+      .call(context.horizon().extent([-20, 20]) .title("Area (120px)") );
 
   div.append("div")
       .attr("class", "rule")
