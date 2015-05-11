@@ -73,7 +73,7 @@ d3.select("#example1").call(function(div) {
       .call(context.axis().orient("top"));
 
   div.selectAll(".horizon")
-      .data([foo, bar, foo.add(bar), foo.subtract(bar)])
+      .data([foo, bar, foo.add(bar)])
     .enter().append("div")
       .attr("class", "horizon")
       .call(context.horizon().extent([-20, 20]));
